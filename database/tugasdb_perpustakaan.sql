@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS tugasdb_perpustakaan;
+USE tugasdb_perpustakaan;
+
+CREATE TABLE buku (
+    id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    judul VARCHAR(255) NOT NULL,
+    penulis VARCHAR(255) NOT NULL,
+    tahun INT NOT NULL,
+    created_at TIMESTAMP NULL DEFAULT NULL,
+    updated_at TIMESTAMP NULL DEFAULT NULL
+);
