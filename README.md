@@ -55,6 +55,7 @@ Jalankan perintah ini secara berurutan di terminal:
 ```bash
 php artisan key:generate
 php artisan serve
+```
 
 ### 5. Akses Aplikasi
 Buka browser dan ketik alamat:
