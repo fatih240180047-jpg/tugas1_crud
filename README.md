@@ -52,7 +52,7 @@ Buka file .env menggunakan VS Code, lalu sesuaikan bagian berikut agar terhubung
 ### 4. Aktivasi Project
 Jalankan perintah ini secara berurutan di terminal:
 
-```bash
+    ```bash
    php artisan key:generate
    php artisan serve
 
